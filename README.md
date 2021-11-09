@@ -2,6 +2,6 @@
 My new startpage
 <br>
 <br>
-<img src="preview.jpg" alt="preview_image_here">
+<img src="image.png" alt="preview_image_here">
 <br>
-<video src="preview.mp4" autoplay muted loop>
+<video src="new.mp4" type="video/mp4" autoplay loop>Preview Video Here</video>
