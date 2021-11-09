@@ -1,0 +1,162 @@
+body {
+	color: #ebdbb2;
+	background-color: #282828;
+	font-size: 20px;
+	font-family: "Source Sans Pro";
+	margin: 30px;
+	margin-top: 60px;
+}
+
+.grid {
+	display:grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-gap: 10px;
+	justify-content: center;
+	height: 100%;
+}
+
+.image {
+	width: 330px;
+	height: 360px;
+	margin: 30px;
+	margin-left: 90px;
+	margin-top: 70px;
+	border: 4px solid #a89984;
+	border-radius: 3px;
+}
+
+.main-header {
+	grid-column: 2 / -1;	
+	padding-left: 000px;
+	font-size: 36px;
+}
+
+.cd-text {
+	padding-left: 180px;
+}
+
+.blink {
+	animation: blink 1s ease-in-out infinite;
+	opacity: 1;
+	
+}
+
+@keyframes blink {
+	0% {
+	opacity: 1;
+	}
+	50% {
+	opacity: 0;
+	}
+	100% {
+	opacity: 1;
+	}
+}
+
+.search-input {
+	background-color: inherit;
+	outline: 0px;
+	text-decoration: none;
+	color: #ebdbb2;
+	border-style: hidden;
+	text-align: center;
+	width: 200px;
+	height: 25px;
+	font-size: 0.7em;
+	padding-bottom: 4px;
+}
+
+.search-input:hover {
+	border-style: hidden;
+	border-bottom: 2px;
+	border-bottom-color: #a89984;
+	border-bottom-style: solid;
+	font-size: 0.7em;
+}
+
+.search-box {
+	display: inline-block;
+	width: 50px;
+	padding-left: 20px;
+	padding-bottom: 14px;
+}
+
+.search-input:hover {
+	outline: 0px;
+}
+
+.image-box {
+	grid-row: 1 / 4;
+	padding-top: 34px;
+	padding-left: 34px;
+}
+
+.links {
+	padding-left: 5px;
+	padding-top: 30px;
+	font-size: 15px;;
+	justify-content: center;
+}
+
+.links > .links-header {
+	font-size: 1.9em;
+	padding-left: 200px;
+	padding-top: 27px;
+	padding-right: 60px;
+}
+
+.links > div {
+	justify-content: center;
+	padding-top: 10px;
+	padding-left: 200px;
+}
+
+.links > div:nth-child(2) {
+	padding-top: 20px;
+}
+
+.links > div:last-child {
+	padding-bottom: 00px;
+}
+
+.links > div > a {
+	font-size: 17px;
+	color: #fabd2f;
+	text-decoration: none;
+}
+
+.links > div > a:visited {
+	color: #83a598;
+	text-decoration: none;
+}
+
+.links > div > a:hover {
+	color: #b8bb26;
+	font-size: 22px;
+	text-decoration: none;
+}
+
+.links-b > div {
+	padding-bottom:0px;
+	padding-left: 0px;
+}
+
+.links-d > div {
+	padding-left: 0px;
+}
+
+.links-c > .links-header {
+	padding-top: 0px;
+}
+
+.links-d > .links-header {
+	padding-top: 0px;
+}
+
+#header2 {
+	padding-left: 0px;
+}	
+
+#header4 {
+	padding-left: 0px;
+}
