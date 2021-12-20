@@ -1,7 +1,8 @@
 # New-Startpage
-My new startpage
+<h2>My new startpage</h2>
 <br>
 <br>
-<img src="image.png" alt="preview_image_here">
+<video width="500" autoplay>
+	<source src="updated.mp4" type="video/mp4">
+</video>
 <br>
-<a href="new.mp4">Preview Video Here</a>
