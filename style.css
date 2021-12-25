@@ -1,5 +1,5 @@
 body {
-	background-color: #282828;
+	background-color: #1e2327;
 	font-size: 20px;
 	font-family: "Source Sans Pro";
 	margin: 30px;
@@ -16,22 +16,22 @@ body {
 
 .image {
 	width: 630px;
-	height: 500px;
-	margin: 30px;
-	margin-left: 30px;
+	height: 480px;
+	margin: 00px;
+	margin-left: 35px;
 	margin-top: 00px;
-	border: 3px solid #9ec9ee;
+	border: 3px solid #a7c080;
 	border-radius: 3px;
 }
 
 .main-header {
 	grid-column: 2 / -1;	
-	padding-left: 100px;
+	padding-left: 20px;
 	font-size: 36px;
 }
 
 .cd-text {
-	color: #fdf8fc; 
+	color: #a7c080; 
 	padding-left: 130px;
 	padding-top: 90px;
 }
@@ -56,8 +56,8 @@ body {
 
 .image-box {
 	grid-row: 1 / 4;
-	padding-top: 34px;
-	padding-left: 34px;
+	padding-top: 14px;
+	padding-left: 24px;
 }
 
 .links {
@@ -68,16 +68,16 @@ body {
 
 .links > .links-header {
 	font-size: 1.9em;
-	padding-left: 200px;
+	padding-left: 130px;
 	padding-bottom: 0px;
-	padding-top: 27px;
+	padding-top: 07px;
 	padding-right: 60px;
 }
 
 .links > div {
 	justify-content: center;
 	padding-top: 10px;
-	padding-left: 200px;
+	padding-left: 130px;
 }
 
 .links > div:nth-child(2) {
@@ -90,12 +90,12 @@ body {
 
 .links > div > a {
 	font-size: 17px;
-	color: #bbbdf0;
+	color: #a7c090;
 	text-decoration: none;
 }
 
 .links-header {
-	color: #fdf8fc;
+	color: #d3c6aa;
 }
 .links > div > a:visited {
 	color: #83a598;
@@ -103,7 +103,7 @@ body {
 }
 
 .links > div > a:hover {
-	color: #c09d9b;
+	color: #fcdddd;
 	font-size: 22px;
 	text-decoration: none;
 }

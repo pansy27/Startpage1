@@ -2,5 +2,5 @@
 <h2>My new startpage</h2>
 <br>
 <br>
-<img src="new.png">
+<img src="lali_ho.jpg">
 <br>
