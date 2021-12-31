@@ -2,6 +2,6 @@
 <h2>My startpage</h2>
 <br>
 <br>
-<img src="lali_ho.jpg">
+<img src="skel.png">
 <br>
 <p> testing</p>
