@@ -4,4 +4,3 @@
 <br>
 <img src="skel.png">
 <br>
-<p> testing</p>
