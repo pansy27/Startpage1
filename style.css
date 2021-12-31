@@ -1,9 +1,12 @@
+* {
+	background-color: #212332;
+ }
 body {
-	background-color: #1e2327;
+	background-color: #212332;
 	font-size: 20px;
 	font-family: "Source Sans Pro";
 	margin: 30px;
-	margin-top: 60px;
+	margin-top: 30px;
 }
 
 .grid {
@@ -15,17 +18,13 @@ body {
 }
 
 .image {
-	width: 530px;
-	height: 400px;
-	margin: 00px;
-	margin-left: 35px;
+	width: 380px;
+	height: 540px;
+	margin-left: 85px;
 	margin-top: 00px;
-	border: 3px solid #a7c080;
-	border-radius: 3px;
-	opacity: 0.5;
-}
-.image:hover {
-	opacity: 0.9;
+	margin-bottom: 20px;
+	border: 3px solid #8f8676;
+	border-radius: 2px;
 }
 
 .main-header {
@@ -35,8 +34,8 @@ body {
 }
 
 .cd-text {
-	color: #a7c080; 
-	padding-left: 130px;
+	color: #f8e9ba; 
+	padding-left: 190px;
 	padding-top: 90px;
 }
 
@@ -94,21 +93,20 @@ body {
 
 .links > div > a {
 	font-size: 17px;
-	color: #a7c090;
+	color: #f8e9ba;
 	text-decoration: none;
 }
 
 .links-header {
-	color: #d3c6aa;
+	color: #fffcd5;
 }
 .links > div > a:visited {
-	color: #83a598;
+	color: #544c59;
 	text-decoration: none;
 }
 
 .links > div > a:hover {
 	color: #fcdddd;
-	font-size: 22px;
 	text-decoration: none;
 }
 
