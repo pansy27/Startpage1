@@ -1,6 +1,4 @@
-# Startpage
-<h2>My startpage</h2>
-<br>
+# My Startpage
 <br>
 <img src="skel.png">
 <br>
