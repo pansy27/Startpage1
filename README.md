@@ -1,4 +1,4 @@
 # My Startpage
 <br>
-<img src="Screenshots/v5.png">
+<img src="ScreenShots/v5.png">
 <br>
